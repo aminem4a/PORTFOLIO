@@ -119,16 +119,16 @@ body {
     }
 }
 .container:nth-child(1) {
-    animation-delay: 8s;
+    animation-delay: 0s;
 }
 .container:nth-child(2) {
-    animation-delay: 9.5s;
+    animation-delay: 1.5s;
 }
 .container:nth-child(3) {
-    animation-delay: 11s;
+    animation-delay: 3s;
 }
 .container:nth-child(4) {
-    animation-delay: 12.5s;
+    animation-delay: 4.5s;
 }
 
 .text-box{
@@ -171,7 +171,6 @@ body {
     left: 50%;
     margin-left:-3px;
     z-index:-1;
-    animation-delay: 8s;
     animation: moveline 6s linear forwards;
 }
 @keyframes moveline{
